@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="{% url 'article_num' random_int %}">рандом страница</a>
+<br>
+<a href="{% url 'article_num' random_int random_slug %}">рандом slug</a>
+
+{% endblock %}
